@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    background-image: url(https://www.dafbelarus.by/files/img/stati-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 74vw;
+    height: 13vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.logotip {
+    height: 100%;
+}
+
+#nameCompany {
+    color: aquamarine;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(95, 77, 77);
+    width: 74vw;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav>a {
+    color: rgb(6, 236, 206);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.breadcrumbs {
+    display: flex;
+    width: 74vw;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.breadcrumbs>a {
+    color: rgb(52, 34, 104);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 74vw;
+    background-color: beige;
+}
+
+.results {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: blueviolet solid 2px;
+    background-color: aquamarine;
+    width: 230px;
+    height: 600px;
+}
+
+.param{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.input {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+}
+
+.keyword {
+    display: flex;
+    margin-left: 14px;
+    margin-top: 14px;
+    width: 200px;
+}
+.search{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #56CCF2;
+    width: 200px;
+    height: 25px;
+    padding-left: 65px;
+    color: azure;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.img {
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    width: 224px;
+    height: 168px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nameCar {
+    display: flex;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.prices {
+    display: flex;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.characteristics {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    background-color: beige;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
+}
+
+.text {
+    margin-top: 5px;
+}
+
+.footer {
+    width: 74vw;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer > p{
+    margin: 20px 50px 20px 255px;
+}
+
+.bottomFooter{
+    display: flex;
+    width: 74vw;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-color: azure;
+    flex-direction: row;
+}
+
+.contact{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.logoFooter{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.contactName{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.iconImg{
+    width: 25px;
+    height: 25px;
+}
+
+.text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footerInfo{
+    width: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
